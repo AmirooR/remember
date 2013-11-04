@@ -1,4 +1,4 @@
 name: Remember
 markdown: redcarpet
 pygments: true
-_baseurl: /remember
+baseurl: http://amiroor.github.io/remember
