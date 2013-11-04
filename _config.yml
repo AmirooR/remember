@@ -1,4 +1,4 @@
 name: Remember
 markdown: redcarpet
 pygments: true
-source: remember/
+_baseurl: /remember
