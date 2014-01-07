@@ -5,28 +5,28 @@ date: 2013-11-27 17:53:15
 categories: shell scp background
 ---
 
-# Run scp as usual:
+1. Run scp as usual:
 
-{% highlight bash %}
-scp user@server:/home/gholi/gholi.txt .
-{%endhighlight %}
+  {% highlight bash %}
+  scp user@server:/home/gholi/gholi.txt .
+  {%endhighlight %}
 
 Then type password.
 
-# Background the scp: 
-{% highlight bash %}
-Ctrl+Z
-{%endhighlight %}
+2. Background the scp: 
+  {% highlight bash %}
+  Ctrl+Z
+  {%endhighlight %}
 
-# Continue it: 
-{% highlight bash %}
-bg
-{%endhighlight %}
+3. Continue it: 
+  {% highlight bash %}  
+  bg
+  {%endhighlight %}
 
-# Disown the background process:
-{% highlight bash %}
-disown
-{%endhighlight %}
+4. Disown the background process:
+  {% highlight bash %}
+  disown
+  {%endhighlight %}
 
 
 Now you can exit while the program is still running.
