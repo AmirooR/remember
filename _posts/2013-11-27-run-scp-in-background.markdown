@@ -11,7 +11,7 @@ categories: shell scp background
   scp user@server:/home/gholi/gholi.txt .
   {%endhighlight %}
 
-Then type password.
+  Then type password.
 
 2. Background the scp: 
   {% highlight bash %}
