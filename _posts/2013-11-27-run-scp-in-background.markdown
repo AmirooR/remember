@@ -5,7 +5,7 @@ date: 2013-11-27 17:53:15
 categories: shell scp background
 ---
 
-#. Run scp as usual:
+# Run scp as usual:
 
 {% highlight bash %}
 scp user@server:/home/gholi/gholi.txt .
@@ -13,17 +13,17 @@ scp user@server:/home/gholi/gholi.txt .
 
 Then type password.
 
-#. Background the scp: 
+# Background the scp: 
 {% highlight bash %}
 Ctrl+Z
 {%endhighlight %}
 
-#. Continue it: 
+# Continue it: 
 {% highlight bash %}
 bg
 {%endhighlight %}
 
-#. Disown the background process:
+# Disown the background process:
 {% highlight bash %}
 disown
 {%endhighlight %}
