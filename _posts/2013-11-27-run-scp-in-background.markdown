@@ -14,16 +14,19 @@ categories: shell scp background
   Then type password.
 
 2. Background the scp: 
+
   {% highlight bash %}
   Ctrl+Z
   {%endhighlight %}
 
 3. Continue it: 
-  {% highlight bash %}  
+
+  {% highlight bash %}
   bg
   {%endhighlight %}
 
 4. Disown the background process:
+
   {% highlight bash %}
   disown
   {%endhighlight %}
