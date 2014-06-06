@@ -10,7 +10,10 @@ categories: rails POST curl
 * Example:
 
 {% highlight bash %}
-curl -X POST -H "Content-Type: application/json" -d '{"player": {"name": "test","room_id": 0,"skin_id": 1,"head_id": 2,"torso_id": 3,"legs_id": 4,"x_position": 5,"y_position": 6,"direction": 7,"action": "","gender": "f"}}' localhost:3000/players.json
+curl -X POST -H "Content-Type: application/json" -d \
+'{"player": {"name": "test","room_id": 0,"skin_id": 1,"head_id": 2,"torso_id": 3 \
+,"legs_id": 4,"x_position": 5,"y_position": 6,"direction": 7,"action": "","gender": "f"}}'\
+localhost:3000/players.json
 #==> to use the new environment
 {%endhighlight %}
 
