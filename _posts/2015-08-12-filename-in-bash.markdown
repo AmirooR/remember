@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Handling filename and extensions in bash"
-date: 2013-11-03
+date: 2015-08-12
 categories: bash filename
 ---
 ## Get file without path
